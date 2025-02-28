@@ -2,20 +2,28 @@
 
 # Задание 1
 
-![Скриншот](https://github.com/garrkiss/grafana/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2012.02.25_22.30.49.png)
+![Скриншот](https://github.com/garrkiss/sentry/blob/main/img/1.png)
 
 # Задание 2
 
-![Скриншот](https://github.com/garrkiss/grafana/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2012.02.25_22.42.31.png)
+1. Перешел в список событий проекта, выбрал созданное событие и нажал на Resolve:
+![Скриншот](https://github.com/garrkiss/sentry/blob/main/img/2.png)
 
-![Скриншот](https://github.com/garrkiss/grafana/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2012.02.25_22.42.31.png)
+2. Stack trace
+![Скриншот](https://github.com/garrkiss/sentry/blob/main/img/2-1.png)
 
-![Скриншот](https://github.com/garrkiss/grafana/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2012.02.25_22.42.31.png)
+3. Cписок событий проекта после нажатия Resolved:
+![Скриншот](https://github.com/garrkiss/sentry/blob/main/img/2-2.png)
 
 # Задание 3
 
-![Скриншот](https://github.com/garrkiss/grafana/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2012.02.25_22.42.31.png)
+1. Выбрал проект и создал дефолтное правило алёртинга с указанием канала отправки оповещений:
+![Скриншот](https://github.com/garrkiss/sentry/blob/main/img/3.png)
 
-![Скриншот](https://github.com/garrkiss/grafana/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2012.02.25_22.42.31.png)
+2. Снова сгенерировал событие Generate sample event
 
-![Скриншот](https://github.com/garrkiss/grafana/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2012.02.25_22.42.31.png)
+3. Получил на электронную почту оповещение от алёртинга:
+![Скриншот](https://github.com/garrkiss/sentry/blob/main/img/3-1.png)
+
+4. Дополнительно поэкспериментировал с правилами алёртинга. Например, настроил правило алёртинга, если задача создана или переведена из состояния "Решенные" в "Не решенные", то через 10 минут в доступные каналы связи, например, электронную почту, придет оповещение:
+![Скриншот](https://github.com/garrkiss/sentry/blob/main/img/3-2.png)
